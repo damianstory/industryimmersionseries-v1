@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div className="flex-1 max-w-2xl pl-8 md:pl-16 lg:pl-24">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">Industry Immersion Series</h1>
           <p className="text-lg text-gray-600 mb-2 max-w-md">Available to all grade 7-12 students across Canada, launching October 2025.</p>
-          <p className="text-lg text-gray-600 mb-8 max-w-md">Join the mailing list to stay informed about how your students can participate in the program.</p>
+          <p className="text-lg text-gray-600 mb-8 max-w-md">Join the mailing list to get notified about which industries are going to be involved and how your students can participate.</p>
           
           <div className="flex items-center gap-4">
             <div className="flex items-center border border-gray-200 rounded-full overflow-hidden flex-1 max-w-md">

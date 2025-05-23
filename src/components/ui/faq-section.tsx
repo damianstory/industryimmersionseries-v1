@@ -6,8 +6,8 @@ import { ChevronDown, Mail } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
-interface FaqSectionProps extends React.HTMLAttributes<HTMLElement> {
-  title: string;
+interface FaqSectionProps extends Omit<React.HTMLAttributes<HTMLElement>, 'title'> {
+  title: string | React.ReactNode;
   description?: string;
   items: {
     question: string;
@@ -123,7 +123,7 @@ const FaqItem = React.forwardRef<
       >
         <h3
           className={cn(
-            "text-base font-medium transition-colors duration-200 text-left",
+            "text-xl font-semibold tracking-tight transition-colors duration-200 text-left",
             "text-foreground/70",
             isOpen && "text-foreground"
           )}
@@ -165,7 +165,7 @@ const FaqItem = React.forwardRef<
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: -10, opacity: 0 }}
-                className="text-sm text-muted-foreground leading-relaxed"
+                className="text-base text-gray-600 leading-relaxed"
               >
                 {answer}
               </motion.p>

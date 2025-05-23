@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function IncentivesSection() {
   return (
-    <section className="py-16 px-4 md:px-12 bg-white" id="incentives">
+    <section className="pt-8 pb-16 px-4 md:px-12 bg-white" id="incentives">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Incentives</h2>
