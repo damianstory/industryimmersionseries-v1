@@ -26,6 +26,14 @@ const DEMO_FAQS = [
 export default function Footer() {
   return (
     <footer className="w-full">
+      {/* FAQ Section */}
+      <FaqSection
+        title="Frequently Asked Questions"
+        description="Everything you need to know about the Industry Immersion Series"
+        items={DEMO_FAQS}
+        className="bg-white -mt-5 lg:-mt-15 pb-20 px-4 md:px-12"
+      />
+
       {/* CTA Section */}
       <section className="bg-gradient-to-b from-white to-black py-20 px-4 md:px-12" id="stay-informed">
         <div className="max-w-4xl mx-auto text-center">
@@ -49,14 +57,6 @@ export default function Footer() {
           </div>
         </div>
       </section>
-
-      {/* FAQ Section */}
-      <FaqSection
-        title="Frequently Asked Questions"
-        description="Everything you need to know about the Industry Immersion Series"
-        items={DEMO_FAQS}
-        className="bg-white"
-      />
 
       {/* Footer Links Section */}
       <section className="bg-white py-16 px-4 md:px-12 border-t border-gray-200">

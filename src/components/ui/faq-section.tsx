@@ -38,13 +38,13 @@ const FaqSection = React.forwardRef<HTMLElement, FaqSectionProps>(
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="max-w-2xl mx-auto text-center mb-12"
+            className="max-w-4xl mx-auto text-center mb-12"
           >
-            <h2 className="text-3xl font-semibold mb-3 bg-gradient-to-r from-foreground via-foreground/80 to-foreground bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-black">
               {title}
             </h2>
             {description && (
-              <p className="text-sm text-muted-foreground">{description}</p>
+              <p className="text-lg text-gray-600">{description}</p>
             )}
           </motion.div>
 
