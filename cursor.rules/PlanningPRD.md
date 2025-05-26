@@ -73,7 +73,7 @@ The Industry Immersion Series is an educational initiative that partners with di
   - **School Incentive:** Prize for schools with 100+ student participants who complete all activities
 - Visual elements to make the incentives engaging and clear
 
-#### 6. Why We're Doing This Section
+#### 6. Why Micro Grants Section
 - Mission statement and purpose of the initiative
 - Statistics or information about the importance of career exploration for students
 - Brief explanation of how industry exposure benefits students' future career decisions

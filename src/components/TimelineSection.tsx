@@ -6,91 +6,91 @@ const timelineData = [
     year: "2025",
     month: "September",
     title: "Program Launch",
-    sponsor: "Education",
+    sponsor: "myBlueprint",
     description: "Official kickoff of the Industry Immersion Series program for students across Canada.",
     confirmed: true,
   },
   {
     year: "2025",
     month: "October",
-    title: "Flowers & Saints Founded",
-    sponsor: "Technology",
-    description: "Our journey began with a passion for minimal design and floral artistry.",
+    title: "Coming Soon",
+    sponsor: "Mining",
+    description: "Words will go here.",
     confirmed: true,
   },
   {
     year: "2025",
     month: "November",
-    title: "First Major Exhibition",
-    sponsor: "Arts & Design",
-    description: "Showcased our unique blend of digital art and floral arrangements at the Sydney Design Festival.",
+    title: "Coming Soon",
+    sponsor: "Post-Secondary",
+    description: "Words will go here.",
     confirmed: true,
   },
   {
     year: "2025",
     month: "December",
-    title: "Launch of Online Store",
-    sponsor: "E-Commerce",
-    description: "Expanded our reach by bringing our creations to the digital world.",
-    confirmed: true,
+    title: "Want to sponsor this month?",
+    sponsor: "TBD",
+    description: "Words will go here.",
+    confirmed: false,
   },
   {
     year: "2026",
     month: "January",
-    title: "Collaboration with Top Brands",
-    sponsor: "Retail",
-    description: "Partnered with leading lifestyle brands to create exclusive collections.",
+    title: "Coming Soon",
+    sponsor: "Aviation",
+    description: "Words will go here.",
     confirmed: true,
   },
   {
     year: "2026",
     month: "February",
-    title: "Sustainable Initiatives",
-    sponsor: "Environmental",
-    description: "Launched eco-friendly product lines and carbon-neutral shipping options.",
-    confirmed: false,
+    title: "Coming Soon",
+    sponsor: "Insurance",
+    description: "Words will go here.",
+    confirmed: true,
   },
   {
     year: "2026",
     month: "March",
-    title: "Global Expansion",
-    sponsor: "International Business",
-    description: "Opened our first international studio in Berlin, expanding our global footprint.",
-    confirmed: false,
+    title: "Coming Soon",
+    sponsor: "Taxes",
+    description: "Words will go here.",
+    confirmed: true,
   },
   {
     year: "2026",
     month: "April",
-    title: "Educational Workshops",
-    sponsor: "Education",
-    description: "Started offering workshops to share our design philosophy and techniques.",
+    title: "Want to sponsor this month?",
+    sponsor: "TBD",
+    description: "Words will go here.",
     confirmed: false,
   },
   {
     year: "2026",
     month: "May",
-    title: "Mobile App Release",
-    sponsor: "Software Development",
-    description: "Introduced our mobile application for an enhanced customer experience.",
+    title: "Want to sponsor this month?",
+    sponsor: "TBD",
+    description: "Words will go here.",
     confirmed: false,
   },
   {
     year: "2026",
     month: "June",
-    title: "Community Program Launch",
-    sponsor: "Non-Profit",
-    description: "Initiated programs to support local artists and community development projects.",
+    title: "Want to sponsor this month?",
+    sponsor: "TBD",
+    description: "Words will go here.",
     confirmed: false,
   }
 ];
 
 export default function TimelineSection() {
   return (
-    <section className="py-16 px-4 md:px-12 bg-white" id="timeline">
+    <section className="pt-8 pb-16 px-4 md:px-12 bg-white" id="timeline">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Activity Timeline</h2>
-          <p className="text-xl text-gray-600">The evolution of Industry Immersion Series through the years</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Activity <span style={{ color: '#0092ff' }}>Timeline</span></h2>
+          <p className="text-xl text-gray-600">Each month will have a different activity sponsored by a different industry partner</p>
         </div>
 
         <div className="relative">

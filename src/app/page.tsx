@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Header />
       <HeroSection />
+      <HowItWorksSection />
       <WhyMicroGrantsSection />
       <TimelineSection />
       <IncentivesSection />
-      <HowItWorksSection />
       <Footer />
     </>
   );

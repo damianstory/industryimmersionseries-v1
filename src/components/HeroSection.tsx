@@ -6,7 +6,7 @@ export default function HeroSection() {
       <section className="w-full flex flex-col md:flex-row items-center justify-between gap-8 py-10 px-12 bg-white" id="home">
         {/* Left: Text and Form */}
         <div className="flex-1 max-w-2xl pl-8 md:pl-16 lg:pl-24">
-          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">Industry Immersion Series</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">Industry <span style={{ color: '#0092ff' }}>Immersion</span> Series</h1>
           <p className="text-lg text-gray-600 mb-2 max-w-md">Available to all grade 7-12 students across Canada, launching October 2025.</p>
           <p className="text-lg text-gray-600 mb-8 max-w-md">Join the mailing list to get notified about which industries are going to be involved and how your students can participate.</p>
           
@@ -15,7 +15,7 @@ export default function HeroSection() {
               <input type="text" placeholder="Your email..." className="py-3 px-2 outline-none flex-1" />
             </div>
             
-            <button className="bg-black text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-opacity-90 transition whitespace-nowrap">Stay Informed</button>
+            <button className="text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-opacity-90 transition whitespace-nowrap" style={{ backgroundColor: '#0092ff' }}>Stay Informed</button>
           </div>
         </div>
         

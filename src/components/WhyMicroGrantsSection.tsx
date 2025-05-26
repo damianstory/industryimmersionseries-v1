@@ -4,7 +4,7 @@ export default function WhyMicroGrantsSection() {
   return (
     <section className="pt-32 pb-32 px-4 md:px-12 bg-white" id="why">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
           {/* Left column - Video Placeholder positioned to align with Submission Process */}
           <div className="lg:col-start-1 flex justify-start">
             <div className="w-full max-w-[315px] bg-gray-100 rounded-xl overflow-hidden flex items-center justify-center aspect-[9/16]">
@@ -24,41 +24,31 @@ export default function WhyMicroGrantsSection() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Why <span className="text-[#0092ff]">Micro Grants?</span></h2>
             
             <p className="text-lg text-gray-700 mb-6">
-              The Industry Immersion Series provides micro grants to empower students across Canada to explore potential career paths while developing industry-relevant skills and making meaningful connections.
-            </p>
+              In 2025, students no longer need to wait for permission to start developing industry relevant skills outside of the classroom - what they often need is a little more support and a few more resources. Industry sponsored micro grants can remove both of those constraints, while helping students develop a portfolio of projects they will be excited to share.
+              <br />
+              </p>
 
             <div className="bg-blue-50 p-6 rounded-xl mb-8">
-              <h3 className="text-xl font-bold mb-4">Impact Through Opportunity</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <div className="text-[#0092ff] mr-3 text-xl font-bold">•</div>
-                  <div>
-                    <span className="font-bold">78% of students</span> report that early industry exposure significantly influences their career decisions
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="text-[#0092ff] mr-3 text-xl font-bold">•</div>
-                  <div>
-                    <span className="font-bold">$80,000 in microgrants</span> distributed annually to support student skill development
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="text-[#0092ff] mr-3 text-xl font-bold">•</div>
-                  <div>
-                    <span className="font-bold">8 industries represented</span> in our yearly program, providing diverse career exploration opportunities
-                  </div>
-                </li>
-              </ul>
+              <h3 className="text-xl font-bold mb-4">Scholarships are great, but...</h3>
+              <div className="space-y-4">
+                <p>
+                  <span className="text-md text-gray-700 mb-6">Not every student is going to attend college or university, and not every role requires them to. Yet scholarship dollars are reserved for post-secondary studies. 
+                  <br />
+                  <br />
+                  Think of these micro grants like modern day scholarships, transforming students from passive observers into active participants by providing the financial support needed to move beyond theoretical learning and create real, permissionless, tangible skills. 
+                  </span>
+
+                </p>
+              </div>
             </div>
 
             <div className="italic text-gray-600 border-l-4 border-[#0092ff] pl-4 mb-8">
-              &quot;The micro grants program provides students with both the financial support and industry connections they need to explore potential careers before making major educational decisions.&quot;
-              <div className="mt-2 font-semibold not-italic">— Dr. Maria Chen, Educational Advisor</div>
+              &quot;Good morning, Mr. Matheson.
+I had a lot of fun with the micro grant contest, so I decided to take your recommendation and apply for Basecamp. Thank you so much for giving me the opportunity to develop the skills and confidence I need to thrive in a place like Basecamp.
+I'm really excited to see what this summer has in store for me.&quot;
+              <div className="mt-2 font-semibold not-italic">— Student from micro grant pilot with DMZ</div>
             </div>
 
-            <button className="px-6 py-3 bg-[#0092ff] text-white font-medium rounded-lg hover:bg-[#0070cc] transition-colors">
-              Learn About Our Mission
-            </button>
           </div>
         </div>
       </div>

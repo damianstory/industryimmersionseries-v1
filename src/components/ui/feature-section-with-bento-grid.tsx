@@ -2,7 +2,7 @@ import { FileText, Users, Upload, Award } from "lucide-react";
 
 function Feature() {
   return (
-    <div className="w-full pt-20 lg:pt-40 pb-5 lg:pb-10">
+    <div className="w-full pt-10 lg:pt-20 pb-5 lg:pb-10">
       <div className="max-w-6xl mx-auto px-4 md:px-12">
         <div className="flex flex-col gap-10">
           <div className="text-center mb-6">
