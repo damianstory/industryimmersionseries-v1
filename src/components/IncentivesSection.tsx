@@ -7,7 +7,7 @@ export default function IncentivesSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Incentives</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We offer multiple incentive structures to encourage participation from students, educators, and schools.
+            Not just for students. Educators and schools are also eligible for participation prizes.
           </p>
         </div>
 
@@ -15,7 +15,7 @@ export default function IncentivesSection() {
           {/* Monthly Incentives Card */}
           <div className="bg-white p-8 rounded-xl shadow-md">
             <div className="text-[#0092ff] font-semibold mb-2">01</div>
-            <h3 className="text-2xl font-bold mb-3">Monthly Microgrants</h3>
+            <h3 className="text-2xl font-bold mb-3">Monthly Student Microgrants</h3>
             <p className="text-gray-600 mb-6">
               Each month, we award 20 microgrants of $500 each to students who submit outstanding work for that month&apos;s industry challenge.
             </p>
@@ -28,7 +28,7 @@ export default function IncentivesSection() {
                 </div>
                 <div className="ml-4">
                   <div className="text-sm text-gray-500">Total Monthly Distribution</div>
-                  <div className="text-xl font-bold">$10,000</div>
+                  <div className="text-xl font-bold">$10,000 Every Month</div>
                 </div>
               </div>
               <ul className="space-y-2">
@@ -42,7 +42,7 @@ export default function IncentivesSection() {
                 </li>
                 <li className="flex items-start">
                   <div className="text-[#0092ff] mr-2">•</div>
-                  <span>Selected based on creativity, effort, and skill</span>
+                  <span>Assessed against activity specific rubric</span>
                 </li>
               </ul>
             </div>
@@ -51,9 +51,9 @@ export default function IncentivesSection() {
           {/* Student Completion Incentive Card */}
           <div className="bg-white p-8 rounded-xl shadow-md">
             <div className="text-[#0092ff] font-semibold mb-2">02</div>
-            <h3 className="text-2xl font-bold mb-3">Student Completion Prize</h3>
+            <h3 className="text-2xl font-bold mb-3">Series Completion Incentive</h3>
             <p className="text-gray-600 mb-6">
-              Students who complete all eight monthly activities are eligible for a special completion prize, recognizing their dedication throughout the program.
+              Students who complete all (8) monthly activities are eligible for a special series completion incenitve.
             </p>
             <div className="bg-purple-50 p-6 rounded-xl">
               <div className="flex items-center mb-4">
@@ -64,8 +64,8 @@ export default function IncentivesSection() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="text-sm text-gray-500">Completion Recognition</div>
-                  <div className="text-xl font-bold">Special Prize</div>
+                  <div className="text-sm text-gray-500">Another Chance to Win</div>
+                  <div className="text-xl font-bold">Effort Incentive</div>
                 </div>
               </div>
               <ul className="space-y-2">
@@ -75,11 +75,11 @@ export default function IncentivesSection() {
                 </li>
                 <li className="flex items-start">
                   <div className="text-purple-600 mr-2">•</div>
-                  <span>Prestigious recognition at year-end</span>
+                  <span>Winners will be randomly chosen</span>
                 </li>
                 <li className="flex items-start">
                   <div className="text-purple-600 mr-2">•</div>
-                  <span>Certificate of achievement</span>
+                  <span>Want to sponsor this incentive? Go to FAQs</span>
                 </li>
               </ul>
             </div>
@@ -88,7 +88,7 @@ export default function IncentivesSection() {
           {/* Educator Incentive Card */}
           <div className="bg-white p-8 rounded-xl shadow-md">
             <div className="text-[#0092ff] font-semibold mb-2">03</div>
-            <h3 className="text-2xl font-bold mb-3">Educator Incentives</h3>
+            <h3 className="text-2xl font-bold mb-3">Educator-Level Incentives</h3>
             <p className="text-gray-600 mb-6">
               Educators on our mailing list are eligible for monthly prizes designed to support classroom activities and teaching resources.
             </p>
@@ -100,8 +100,8 @@ export default function IncentivesSection() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="text-sm text-gray-500">Monthly Educator Prizes</div>
-                  <div className="text-xl font-bold">Teaching Resources</div>
+                  <div className="text-sm text-gray-500">Why Should Students Have All The Fun?</div>
+                  <div className="text-xl font-bold">Educator Incenitve</div>
                 </div>
               </div>
               <ul className="space-y-2">
@@ -111,11 +111,11 @@ export default function IncentivesSection() {
                 </li>
                 <li className="flex items-start">
                   <div className="text-green-600 mr-2">•</div>
-                  <span>Classroom supplies and teaching aids</span>
+                  <span>Winners will be randomly chosen                  </span>
                 </li>
                 <li className="flex items-start">
                   <div className="text-green-600 mr-2">•</div>
-                  <span>Professional development opportunities</span>
+                  <span>Want to sponsor this incentive? Go to FAQs</span>
                 </li>
               </ul>
             </div>
@@ -124,7 +124,7 @@ export default function IncentivesSection() {
           {/* School Incentive Card */}
           <div className="bg-white p-8 rounded-xl shadow-md">
             <div className="text-[#0092ff] font-semibold mb-2">04</div>
-            <h3 className="text-2xl font-bold mb-3">School Recognition</h3>
+            <h3 className="text-2xl font-bold mb-3">School-Level Incentive</h3>
             <p className="text-gray-600 mb-6">
               Schools with 100+ student participants who complete all activities receive a special recognition prize to celebrate their commitment.
             </p>
@@ -136,7 +136,7 @@ export default function IncentivesSection() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="text-sm text-gray-500">School Achievement</div>
+                  <div className="text-sm text-gray-500">Building Incentive</div>
                   <div className="text-xl font-bold">Recognition Award</div>
                 </div>
               </div>
