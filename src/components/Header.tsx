@@ -19,6 +19,7 @@ export default function Header() {
         <Link href="#timeline" className="hover:text-primary">Timeline</Link>
         <Link href="#incentives" className="hover:text-primary">Incentives</Link>
         <Link href="#faq" className="hover:text-primary">FAQ</Link>
+        <Link href="#sponsors" className="hover:text-primary">Sponsors</Link>
         <Link href="#stay-informed" className="hover:text-primary">Stay Informed</Link>
       </nav>
 

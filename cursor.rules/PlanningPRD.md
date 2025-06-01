@@ -36,6 +36,7 @@ The Industry Immersion Series is an educational initiative that partners with di
   - How It Works
   - Incentives
   - Why Micro Grants?
+  - Sponsors
   - Contact/Sign Up
 - Mobile-responsive menu for smaller screens
 
@@ -80,12 +81,28 @@ The Industry Immersion Series is an educational initiative that partners with di
 - Quotes or testimonials (if available from early partners or educational advisors)
 
 #### 7. Footer
-- Secondary CTA for email signup (duplicate of hero CTA)
-- Contact information
-- Social media links (if applicable)
-- Copyright information
-- Privacy policy link
-- Terms of service link
+- FAQ Section with common questions and answers
+- Clean white background design
+- Expandable question format for easy navigation
+
+#### 8. Sponsors Section
+- Two-tier sponsor showcase highlighting industry partnerships and program support
+- **Activity Sponsors:** 9 companies in 3x3 grid layout sponsoring monthly skill-building challenges
+  - Display logos of companies providing monthly industry challenges
+  - Equal-sized cards with consistent branding presentation
+- **Presenting Sponsors:** 5 major program sponsors in prominent positioning
+  - Larger cards showcasing primary program supporters
+  - Includes "Become a Sponsor" call-to-action for potential partners
+- Gradient background transition from preceding section to maintain visual flow
+- Clean, logo-focused design emphasizing industry partnerships
+- Responsive grid layout that adapts to different screen sizes
+- Strategic placement after FAQ and before final call-to-action
+
+#### 9. Bottom Section
+- Final call-to-action for email signup with gradient background
+- "Sign up to stay informed" section with email capture form
+- Copyright and legal information
+- White background footer with company attribution
 
 ### Technical Requirements (Milestone 1)
 - Single-page website with scroll navigation

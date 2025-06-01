@@ -30,6 +30,14 @@ This document outlines the visual and interactive design direction for the Indus
 - Clean, horizontal navigation with clear sections
 - Sticky header that remains accessible while scrolling
 - Logo positioned on the left with navigation items centered or right-aligned
+- Navigation links that scroll to corresponding sections:
+  - Home
+  - Timeline  
+  - How It Works
+  - Incentives
+  - Why Micro Grants?
+  - Sponsors
+  - Contact/Sign Up
 - High-contrast "Get Started" button that stands out from other navigation items
 
 ### Hero Section
@@ -67,6 +75,24 @@ This document outlines the visual and interactive design direction for the Indus
 - Compelling headline with supporting facts/statistics
 - Simple CTA that encourages further engagement
 - Optional: Supporting image or illustration that reinforces the mission
+
+### Sponsors Section
+- **Background**: Gradient transition (black to white) creating smooth flow from preceding sections
+- **Two-tier hierarchy**: Clear visual distinction between Activity and Presenting sponsors
+- **Card design**: Consistent white cards with rounded corners (12px radius) and subtle shadows
+- **Grid layouts**: 
+  - Activity sponsors: 3x3 grid on desktop, responsive stacking on mobile
+  - Presenting sponsors: 3+2 arrangement with larger cards
+- **Typography**: Clean hierarchy with section headers and sponsor card content
+- **Interactive elements**: Subtle hover effects (shadow and scale transforms)
+- **Call-to-action**: "Become a Sponsor" card with primary button styling
+- **Spacing**: Generous whitespace and consistent gap spacing between cards
+- **Logo presentation**: Centered, clean logo display within each sponsor card
+- **Responsive behavior**: 
+  - Mobile: Single column stack
+  - Tablet: 2-column layout for activity sponsors
+  - Desktop: Full grid layouts as designed
+- **Visual emphasis**: Larger cards for presenting sponsors to show hierarchy
 
 ### Footer
 - Dark gradient background for visual contrast and emphasis

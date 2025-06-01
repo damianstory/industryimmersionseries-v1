@@ -21,6 +21,21 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+  		keyframes: {
+  			'fade-in': {
+  				'0%': {
+  					opacity: '0',
+  					transform: 'translateY(20px)'
+  				},
+  				'100%': {
+  					opacity: '1',
+  					transform: 'translateY(0)'
+  				}
+  			}
+  		},
+  		animation: {
+  			'fade-in': 'fade-in 1.2s ease-out forwards'
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
