@@ -143,9 +143,13 @@ export function FeatureSteps({
                     "w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center border-2",
                     index === currentFeature
                       ? "border-[#0092ff] text-white scale-110"
+                      : index < currentFeature
+                      ? "bg-white border-[#0092ff] text-[#0092ff]"
                       : "bg-muted border-muted-foreground",
                   )}
-                  style={{ backgroundColor: index <= currentFeature ? '#0092ff' : undefined }}
+                  style={{ 
+                    backgroundColor: index === currentFeature ? '#0092ff' : index < currentFeature ? 'white' : undefined 
+                  }}
                 >
                   {index <= currentFeature ? (
                     <span className="text-lg font-bold">✓</span>
