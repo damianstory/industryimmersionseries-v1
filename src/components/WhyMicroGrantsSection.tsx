@@ -24,20 +24,20 @@ export default function WhyMicroGrantsSection() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Why <span className="text-[#0092ff]">Micro Grants?</span></h2>
             
             <p className="text-lg text-gray-700 mb-6">
-              In 2025, students no longer need to wait for permission to start developing industry relevant skills outside of the classroom - what they often need is a little more support and a few more resources. Industry sponsored micro grants can remove both of those constraints, while helping students develop a portfolio of projects they will be excited to share.
+              In 2025, students no longer need to wait for permission to start developing industry relevant skills outside of the classroom. What they often need is a little more support and a few more resources. Industry sponsored micro grants can remove both of those constraints, while helping students develop a portfolio of projects they will be excited to share.
               <br />
               </p>
-
             <div className="bg-blue-50 p-6 rounded-xl mb-8">
               <h3 className="text-xl font-bold mb-4">Scholarships are great, but...</h3>
               <div className="space-y-4">
                 <p>
-                  <span className="text-md text-gray-700 mb-6">Not every student is going to attend college or university, and not every role requires them to. Yet scholarship dollars are reserved for post-secondary studies. 
-                  <br />
-                  <br />
-                  Think of these micro grants like modern day scholarships, transforming students from passive observers into active participants by providing the financial support needed to move beyond theoretical learning and create real, permissionless, tangible skills. 
+                  <span className="text-md text-gray-700 mb-6">
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Not every student is headed to college or university</li>
+                      <li>Not every role requires them to</li>
+                      <li>And for those that are, micro grants can help fund projects that allow them to develop the skills now that will make their applications stand out that much more</li>
+                    </ul>
                   </span>
-
                 </p>
               </div>
             </div>

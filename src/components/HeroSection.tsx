@@ -6,19 +6,19 @@ const features = [
   { 
     step: 'Step 1', 
     title: 'Awareness',
-    content: "You don't know what you don't know.", 
+    content: 'Students don\'t know what they don\'t know.\n\nWhile the range of jobs available is diversifying, student job expectations have become more narrow, often dominated by a few traditional roles and what they see in the media.\n\nChanging that starts with awareness.',
     image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3' 
   },
   { 
     step: 'Step 2',
     title: 'Action',
-    content: 'You can just do things. Start now.',
+    content: 'Awareness alone is not enough.\n\nStudents need to take action. Employer engagement is essential in helping to make that action meaningful and relevant.\n\nActivities that connect students directly with people in work and workplaces are strongly linked with long-term boosts in employment.',
     image: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3'
   },
   { 
     step: 'Step 3',
     title: 'Reflection',
-    content: 'Did you enjoy it? Follow your curioisty.',
+    content: 'Longitudinal studies show that the ways in which teenagers think about their potential futures in work matters and that this "career thinking" is linked to better outcomes.\n\n Students will be encouraged to document and reflect on each of these monthly activities within their myBlueprint or SpacesEDU portfolios.\n\n',
     image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3'
   },
 ];
@@ -38,7 +38,7 @@ export default function HeroSection() {
               Industry Immersion Series
             </AnimatedGradientText>
           </h1>
-          <p className="text-lg text-gray-600 mb-2 max-w-md">Available to all grade 7-12 students across Canada, launching October 2025.</p>
+          <p className="text-lg text-gray-600 mb-2 max-w-md">Available to all grade 7-12 students across North America, launching October 2025.</p>
           <p className="text-lg text-gray-600 mb-8 max-w-md">Join the mailing list to get notified about which industries are going to be involved and how your students can participate.</p>
           
           <div className="flex items-center gap-4">
@@ -54,7 +54,7 @@ export default function HeroSection() {
         <div className="flex-1 flex justify-center items-start mt-12">
           <FeatureSteps 
             features={features}
-            autoPlayInterval={4000}
+            autoPlayInterval={7000}
             className="p-4 md:p-6 max-w-2xl"
           />
         </div>
