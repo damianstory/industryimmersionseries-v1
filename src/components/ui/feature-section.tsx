@@ -83,9 +83,10 @@ export function FeatureSteps({
                       <h3 className="text-xl md:text-2xl font-semibold mb-3 leading-tight">
                         {features[currentFeature].title || features[currentFeature].step}
                       </h3>
-                      <div className="text-sm md:text-lg text-muted-foreground whitespace-pre-line leading-relaxed flex-1">
-                        {features[currentFeature].content}
-                      </div>
+                      <div 
+                        className="text-sm md:text-lg text-muted-foreground whitespace-pre-line leading-relaxed flex-1"
+                        dangerouslySetInnerHTML={{ __html: features[currentFeature].content }}
+                      />
                     </div>
                   </motion.div>
                 </AnimatePresence>
@@ -95,9 +96,10 @@ export function FeatureSteps({
                     <h3 className="text-xl md:text-2xl font-semibold mb-3 leading-tight">
                       {features[0].title || features[0].step}
                     </h3>
-                    <div className="text-sm md:text-lg text-muted-foreground whitespace-pre-line leading-relaxed flex-1">
-                      {features[0].content}
-                    </div>
+                    <div 
+                      className="text-sm md:text-lg text-muted-foreground whitespace-pre-line leading-relaxed flex-1"
+                      dangerouslySetInnerHTML={{ __html: features[0].content }}
+                    />
                   </div>
                 </div>
               )}

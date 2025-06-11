@@ -16,13 +16,13 @@ export default function Header() {
 
       {/* Navigation - centered */}
       <nav className="hidden md:flex gap-8 text-base font-medium text-gray-700">
-        <Link href="#how" className="hover:text-primary">How It Works</Link>
-        <Link href="#why" className="hover:text-primary">Why Micro Grants?</Link>
-        <Link href="#timeline" className="hover:text-primary">Timeline</Link>
-        <Link href="#incentives" className="hover:text-primary">Incentives</Link>
-        <Link href="#faq" className="hover:text-primary">FAQ</Link>
-        <Link href="#sponsors" className="hover:text-primary">Sponsors</Link>
-        <Link href="#stay-informed" className="hover:text-primary">Stay Informed</Link>
+        <Link href="#how" className="hover:text-[#0092ff]">How It Works</Link>
+        <Link href="#why" className="hover:text-[#0092ff]">Why Micro Grants?</Link>
+        <Link href="#timeline" className="hover:text-[#0092ff]">Timeline</Link>
+        <Link href="#incentives" className="hover:text-[#0092ff]">Incentives</Link>
+        <Link href="#faq" className="hover:text-[#0092ff]">FAQ</Link>
+        <Link href="#sponsors" className="hover:text-[#0092ff]">Sponsors</Link>
+        <Link href="#stay-informed" className="hover:text-[#0092ff]">Stay Informed</Link>
       </nav>
 
       {/* Logo - right side */}

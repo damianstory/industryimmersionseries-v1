@@ -5,82 +5,82 @@ const timelineData = [
   {
     year: "2025",
     month: "September",
-    title: "Program Launch",
+    title: "Promotional Month",
     sponsor: "myBlueprint",
-    description: "Official kickoff of the Industry Immersion Series program for students across Canada.",
+    description: "We'll use this month to welcome students back to school and make sure they know what's coming.",
     confirmed: true,
   },
   {
     year: "2025",
     month: "October",
-    title: "Coming Soon",
-    sponsor: "Mining",
-    description: "Words will go here.",
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
     confirmed: true,
   },
   {
     year: "2025",
     month: "November",
-    title: "Coming Soon",
-    sponsor: "Post-Secondary",
-    description: "Words will go here.",
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
     confirmed: true,
   },
   {
     year: "2025",
     month: "December",
-    title: "Want to sponsor this month?",
-    sponsor: "TBD",
-    description: "Words will go here.",
-    confirmed: false,
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
+    confirmed: true,
   },
   {
     year: "2026",
     month: "January",
-    title: "Coming Soon",
-    sponsor: "Aviation",
-    description: "Words will go here.",
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
     confirmed: true,
   },
   {
     year: "2026",
     month: "February",
-    title: "Coming Soon",
-    sponsor: "Insurance",
-    description: "Words will go here.",
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
     confirmed: true,
   },
   {
     year: "2026",
     month: "March",
-    title: "Coming Soon",
-    sponsor: "Taxes",
-    description: "Words will go here.",
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
     confirmed: true,
   },
   {
     year: "2026",
     month: "April",
-    title: "Want to sponsor this month?",
-    sponsor: "TBD",
-    description: "Words will go here.",
-    confirmed: false,
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
+    confirmed: true,
   },
   {
     year: "2026",
     month: "May",
-    title: "Want to sponsor this month?",
-    sponsor: "TBD",
-    description: "Words will go here.",
-    confirmed: false,
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
+    confirmed: true,
   },
   {
     year: "2026",
     month: "June",
-    title: "Want to sponsor this month?",
-    sponsor: "TBD",
-    description: "Words will go here.",
-    confirmed: false,
+    title: "Sign up to find out",
+    sponsor: "LOL",
+    description: "You thought you could inspect element your way to finding out. Try harder.",
+    confirmed: true,
   }
 ];
 
@@ -90,7 +90,9 @@ export default function TimelineSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Activity <span style={{ color: '#0092ff' }}>Timeline</span></h2>
-          <p className="text-xl text-gray-600">Each month will have a different activity sponsored by a different industry partner</p>
+          <p className="text-xl text-gray-600">Each month will have a different activity sponsored by a different industry partner.</p>
+          
+          <p className="text-xl text-gray-600">Sign up to be the first to find out who they are 👀</p>
         </div>
 
         <div className="relative">
@@ -107,10 +109,12 @@ export default function TimelineSection() {
                     <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
                       <p className="text-[#0092ff] font-semibold">{item.year}</p>
                       <h3 className="text-xl font-bold mb-2">{item.month}</h3>
-                      <h4 className="text-lg font-semibold mb-2">{item.title}</h4>
-                      <p className="text-gray-500 text-sm mb-2">Industry: {item.sponsor}</p>
-                      <p className="text-gray-600">{item.description}</p>
-                      {!item.confirmed && <p className="text-yellow-600 text-sm mt-2 italic">Sponsor to be confirmed</p>}
+                      <div className={index !== 0 ? 'blur-sm' : ''}>
+                        <h4 className="text-lg font-semibold mb-2">{item.title}</h4>
+                        <p className="text-gray-500 text-sm mb-2">Industry: {item.sponsor}</p>
+                        <p className="text-gray-600">{item.description}</p>
+                        {!item.confirmed && <p className="text-yellow-600 text-sm mt-2 italic">Sponsor to be confirmed</p>}
+                      </div>
                     </div>
                   </div>
                 )}
@@ -124,10 +128,12 @@ export default function TimelineSection() {
                     <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
                       <p className="text-[#0092ff] font-semibold">{item.year}</p>
                       <h3 className="text-xl font-bold mb-2">{item.month}</h3>
-                      <h4 className="text-lg font-semibold mb-2">{item.title}</h4>
-                      <p className="text-gray-500 text-sm mb-2">Industry: {item.sponsor}</p>
-                      <p className="text-gray-600">{item.description}</p>
-                      {!item.confirmed && <p className="text-yellow-600 text-sm mt-2 italic">Sponsor to be confirmed</p>}
+                      <div className={index !== 0 ? 'blur-sm' : ''}>
+                        <h4 className="text-lg font-semibold mb-2">{item.title}</h4>
+                        <p className="text-gray-500 text-sm mb-2">Industry: {item.sponsor}</p>
+                        <p className="text-gray-600">{item.description}</p>
+                        {!item.confirmed && <p className="text-yellow-600 text-sm mt-2 italic">Sponsor to be confirmed</p>}
+                      </div>
                     </div>
                   </div>
                 )}
