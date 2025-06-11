@@ -30,15 +30,13 @@ export default function WhyMicroGrantsSection() {
             <div className="bg-blue-50 p-6 rounded-xl mb-8">
               <h3 className="text-xl font-bold mb-4">Scholarships are great, but...</h3>
               <div className="space-y-4">
-                <p>
-                  <span className="text-md text-gray-700 mb-6">
-                    <ul className="list-disc list-inside space-y-2">
-                      <li>Not every student is headed to college or university</li>
-                      <li>Not every role requires them to</li>
-                      <li>And for those that are, micro grants can help fund projects that allow them to develop the skills now that will make their applications stand out that much more</li>
-                    </ul>
-                  </span>
-                </p>
+                <div className="text-md text-gray-700 mb-6">
+                  <ul className="list-disc list-inside space-y-2">
+                    <li>Not every student is headed to college or university</li>
+                    <li>Not every role requires them to</li>
+                    <li>And for those that are, micro grants can help fund projects that allow them to develop the skills now that will make their applications stand out that much more</li>
+                  </ul>
+                </div>
               </div>
             </div>
 

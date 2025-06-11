@@ -66,45 +66,47 @@ export function FeatureSteps({
           </h2>
         )}
 
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-10">
-          <div className="order-2 md:order-1 flex items-center justify-center">
-            {mounted ? (
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={currentFeature}
-                  className="flex items-center gap-6 md:gap-8"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -20 }}
-                  transition={{ duration: 0.5, ease: "easeInOut" }}
-                >
-                  <div className="flex-1">
-                    <h3 className="text-xl md:text-2xl font-semibold">
-                      {features[currentFeature].title || features[currentFeature].step}
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-10 min-h-[300px] md:min-h-[400px] lg:min-h-[450px]">
+          <div className="order-2 md:order-1 flex items-start justify-center">
+            <div className="w-full min-h-[200px] md:min-h-[250px] lg:min-h-[300px] flex flex-col justify-start">
+              {mounted ? (
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={currentFeature}
+                    className="flex items-start gap-6 md:gap-8 h-full"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                  >
+                    <div className="flex-1 min-h-[160px] md:min-h-[200px] lg:min-h-[240px] flex flex-col">
+                      <h3 className="text-xl md:text-2xl font-semibold mb-3 leading-tight">
+                        {features[currentFeature].title || features[currentFeature].step}
+                      </h3>
+                      <div className="text-sm md:text-lg text-muted-foreground whitespace-pre-line leading-relaxed flex-1">
+                        {features[currentFeature].content}
+                      </div>
+                    </div>
+                  </motion.div>
+                </AnimatePresence>
+              ) : (
+                <div className="flex items-start gap-6 md:gap-8 h-full">
+                  <div className="flex-1 min-h-[160px] md:min-h-[200px] lg:min-h-[240px] flex flex-col">
+                    <h3 className="text-xl md:text-2xl font-semibold mb-3 leading-tight">
+                      {features[0].title || features[0].step}
                     </h3>
-                    <div className="text-sm md:text-lg text-muted-foreground whitespace-pre-line mt-3">
-                      {features[currentFeature].content}
+                    <div className="text-sm md:text-lg text-muted-foreground whitespace-pre-line leading-relaxed flex-1">
+                      {features[0].content}
                     </div>
                   </div>
-                </motion.div>
-              </AnimatePresence>
-            ) : (
-              <div className="flex items-center gap-6 md:gap-8">
-                <div className="flex-1">
-                  <h3 className="text-xl md:text-2xl font-semibold">
-                    {features[0].title || features[0].step}
-                  </h3>
-                  <div className="text-sm md:text-lg text-muted-foreground whitespace-pre-line mt-3">
-                    {features[0].content}
-                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
 
           <div
             className={cn(
-              "order-1 md:order-2 relative h-[200px] md:h-[300px] lg:h-[400px] overflow-hidden rounded-lg"
+              "order-1 md:order-2 relative h-[200px] md:h-[300px] lg:h-[400px] overflow-hidden rounded-lg flex-shrink-0"
             )}
           >
             {mounted ? (

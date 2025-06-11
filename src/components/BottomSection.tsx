@@ -29,7 +29,14 @@ export default function BottomSection() {
       <div className="bg-white border-t border-gray-200 py-8 px-4 md:px-12">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center">
           <p className="text-sm text-gray-500 mb-4 md:mb-0">
-            © 2025 Industry Immersion Series. myBlueprint Special Projects.
+            © 2025 Industry Immersion Series. <a 
+              href="https://myblueprint.ca/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ color: '#0092ff', textDecoration: 'none' }}
+            >
+              myBlueprint
+            </a> Special Projects.
           </p>
         </div>
       </div>

@@ -26,9 +26,9 @@ const features = [
 export default function HeroSection() {
   return (
     <>
-      <section className="w-full flex flex-col lg:flex-row items-center justify-between gap-8 py-10 px-12 bg-white" id="home">
+      <section className="w-full flex flex-col lg:flex-row items-start justify-between gap-8 pt-20 pb-12 px-12 bg-white" id="home">
         {/* Left: Text and Form */}
-        <div className="flex-1 max-w-2xl pl-8 md:pl-16 lg:pl-24">
+        <div className="flex-1 max-w-2xl pl-8 md:pl-16 lg:pl-24 pt-4 md:pt-6">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
             <AnimatedGradientText 
               colorFrom="#0070cc" 
@@ -51,7 +51,7 @@ export default function HeroSection() {
         </div>
         
         {/* Right: Feature Steps Component */}
-        <div className="flex-1 flex justify-center items-start mt-12">
+        <div className="flex-1 flex justify-center items-start">
           <FeatureSteps 
             features={features}
             autoPlayInterval={7000}
@@ -61,7 +61,7 @@ export default function HeroSection() {
       </section>
       
       {/* Bottom Navigation Bar */}
-      <div className="w-full bg-black py-4 px-6 flex items-center justify-center overflow-hidden mt-20">
+      <div className="w-full bg-black py-4 px-6 flex items-center justify-center overflow-hidden mt-12">
         <div className="flex items-center gap-2 text-white">
           <span className="text-2xl">✦</span>
           <span className="text-lg font-medium">Real Companies Helping Students Build Real Skills </span>

@@ -5,11 +5,13 @@ export default function Header() {
     <header className="w-full flex items-center justify-between py-4 px-12 bg-white shadow-sm sticky top-0 z-50">
       {/* Logo - left side */}
       <div className="flex items-center">
-        <img 
-          src="https://i.imgur.com/nMI6kHR.png" 
-          alt="Industry Immersion Series Logo" 
-          className="h-8 w-auto"
-        />
+        <Link href="/">
+          <img 
+            src="https://i.imgur.com/nMI6kHR.png" 
+            alt="Industry Immersion Series Logo" 
+            className="h-8 w-auto cursor-pointer hover:opacity-80 transition-opacity"
+          />
+        </Link>
       </div>
 
       {/* Navigation - centered */}
@@ -23,8 +25,16 @@ export default function Header() {
         <Link href="#stay-informed" className="hover:text-primary">Stay Informed</Link>
       </nav>
 
-      {/* Empty div for balance */}
-      <div className="w-[120px]"></div>
+      {/* Logo - right side */}
+      <div className="flex items-center justify-end">
+        <Link href="/">
+          <img 
+            src="https://i.imgur.com/oFmdCeW.png" 
+            alt="Right Logo" 
+            className="h-8 w-auto cursor-pointer hover:opacity-80 transition-opacity"
+          />
+        </Link>
+      </div>
     </header>
   );
 } 

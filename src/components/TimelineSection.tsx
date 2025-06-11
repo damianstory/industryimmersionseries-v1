@@ -86,7 +86,7 @@ const timelineData = [
 
 export default function TimelineSection() {
   return (
-    <section className="pt-8 pb-16 px-4 md:px-12 bg-white" id="timeline">
+    <section className="pt-24 pb-16 px-4 md:px-12 bg-white" id="timeline">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Activity <span style={{ color: '#0092ff' }}>Timeline</span></h2>
