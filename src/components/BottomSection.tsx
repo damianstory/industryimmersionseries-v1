@@ -1,12 +1,6 @@
-import Script from 'next/script';
-
 export default function BottomSection() {
   return (
     <>
-      <Script 
-        src="https://subscribe-forms.beehiiv.com/embed.js" 
-        strategy="lazyOnload"
-      />
       <section className="w-full">
         {/* CTA Section */}
         <div className="bg-gradient-to-b from-white to-black py-20 px-4 md:px-12" id="stay-informed">
@@ -14,25 +8,15 @@ export default function BottomSection() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Sign up to stay informed
           </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
             We'll only email you with the specifics about what you and your students need to know to take advantage of each month's industry sponsored skill building opportunity. 
           </p>
+          
+          {/* Form Container - Centered horizontally */}
           <div className="flex justify-center">
-            <iframe 
-              src="https://subscribe-forms.beehiiv.com/714f20fb-3d72-43af-b3af-7ed2c902003e" 
-              className="beehiiv-embed" 
-              data-test-id="beehiiv-embed" 
-              frameBorder="0" 
-              scrolling="no" 
-              style={{ 
-                width: '400px', 
-                height: '200px', 
-                margin: '0 auto', 
-                borderRadius: '0px 0px 0px 0px !important', 
-                backgroundColor: 'transparent', 
-                boxShadow: '0 0 #0000' 
-              }}
-            />
+            <div className="max-w-md" dangerouslySetInnerHTML={{
+              __html: `<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script><iframe src="https://subscribe-forms.beehiiv.com/714f20fb-3d72-43af-b3af-7ed2c902003e" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="width: 100%; height: 52px; margin: 0; border-radius: 0px 0px 0px 0px !important; background-color: transparent; box-shadow: 0 0 #0000;"></iframe>`
+            }} />
           </div>
         </div>
       </div>

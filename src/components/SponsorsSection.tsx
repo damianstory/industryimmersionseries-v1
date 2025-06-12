@@ -71,7 +71,7 @@ const modalData: { [key: string]: { title: string; content: string; icon: string
   },
   "Become a Sponsor": {
     title: "Email Damian",
-    content: "Interested in becoming a sponsor? Reach out to discuss partnership opportunities and how we can work together to support student development.",
+    content: "Want more young people to know about opportunities within your company or industry? Want to fund incentives that encourage students to participate?\n\nLet's talk: damian.matheson@myblueprint.ca",
     icon: "🤝"
   }
 };
@@ -83,7 +83,8 @@ function SponsorModal({
   title, 
   content,
   icon,
-  showCloseButton = false
+  showCloseButton = false,
+  showSignUpButton = true
 }: { 
   isOpen: boolean;
   onClose: () => void;
@@ -91,6 +92,7 @@ function SponsorModal({
   content: string;
   icon: string;
   showCloseButton?: boolean;
+  showSignUpButton?: boolean;
 }) {
   const handleSignUp = () => {
     // Scroll to stay informed section
@@ -118,17 +120,7 @@ function SponsorModal({
       onClick={handleBackdropClick}
     >
       <div className="bg-white rounded-2xl max-w-md w-full mx-4 overflow-hidden shadow-2xl relative">
-        {/* Close button - only show for specific modals */}
-        {showCloseButton && (
-          <button
-            onClick={onClose}
-            className="absolute top-4 right-4 w-8 h-8 bg-white rounded-full flex items-center justify-center text-gray-400 hover:text-gray-600 hover:bg-gray-50 transition-colors z-10 shadow-sm"
-          >
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M1 1L13 13M1 13L13 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-          </button>
-        )}
+
 
         {/* Header with gradient background */}
         <div className="bg-gradient-to-br from-[#0092ff] to-[#0070cc] px-6 py-4 text-center relative">
@@ -143,17 +135,19 @@ function SponsorModal({
           <h1 className="text-2xl font-bold text-gray-800 mb-4">
             {title}
           </h1>
-          <p className="text-gray-600 text-base leading-relaxed mb-8">
+          <p className="text-gray-600 text-base leading-relaxed whitespace-pre-line mb-8">
             {content}
           </p>
           
-          {/* Sign up button */}
-          <button
-            onClick={handleSignUp}
-            className="bg-[#0092ff] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#0070cc] transition-colors"
-          >
-            Sign up
-          </button>
+          {/* Sign up button - conditionally shown */}
+          {showSignUpButton && (
+            <button
+              onClick={handleSignUp}
+              className="bg-[#0092ff] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#0070cc] transition-colors"
+            >
+              Sign up
+            </button>
+          )}
         </div>
       </div>
     </div>
@@ -317,6 +311,7 @@ export default function SponsorsSection() {
           content={modalData[selectedSponsor].content}
           icon={modalData[selectedSponsor].icon}
           showCloseButton={selectedSponsor === "Become a Sponsor"}
+          showSignUpButton={selectedSponsor !== "Become a Sponsor"}
         />
       )}
     </>

@@ -56,7 +56,7 @@ export default function HeroSection() {
         </div>
         
         {/* Right: Feature Steps Component */}
-        <div className="flex-1 flex justify-center items-start mt-4">
+        <div className="flex-1 flex justify-center items-start mt-5">
           <FeatureSteps 
             features={features}
             autoPlayInterval={7000}
