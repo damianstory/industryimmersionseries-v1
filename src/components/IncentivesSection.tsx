@@ -53,7 +53,7 @@ export default function IncentivesSection() {
             <div className="text-[#0092ff] font-semibold mb-2">02</div>
             <h3 className="text-2xl font-bold mb-3">Series Completion Incentive</h3>
             <p className="text-gray-600 mb-6">
-              Students who complete all (8) monthly activities are eligible for a special series completion incenitve.
+              Students who complete all (8) monthly activities are eligible for separate series completion incenitves.
             </p>
             <div className="bg-purple-50 p-6 rounded-xl">
               <div className="flex items-center mb-4">
@@ -64,8 +64,8 @@ export default function IncentivesSection() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <div className="text-sm text-gray-500">Another Chance to Win</div>
-                  <div className="text-xl font-bold">Effort Incentive</div>
+                  <div className="text-sm text-gray-500">Effort Rewarded</div>
+                  <div className="text-xl font-bold">More Chances to Win</div>
                 </div>
               </div>
               <ul className="space-y-2">
@@ -79,7 +79,7 @@ export default function IncentivesSection() {
                 </li>
                 <li className="flex items-start">
                   <div className="text-purple-600 mr-2">•</div>
-                  <span>Want to sponsor this incentive? Go to FAQs</span>
+                  <span>Multiple different incentives available</span>
                 </li>
               </ul>
             </div>
@@ -90,7 +90,7 @@ export default function IncentivesSection() {
             <div className="text-[#0092ff] font-semibold mb-2">03</div>
             <h3 className="text-2xl font-bold mb-3">Educator-Level Incentives</h3>
             <p className="text-gray-600 mb-6">
-              Educators on our mailing list are eligible for monthly prizes designed to support classroom activities and teaching resources.
+              Educators on the Industry Immersion Series mailing list are eligible for prizes designed to support classroom activities, and to be fun!
             </p>
             <div className="bg-green-50 p-6 rounded-xl">
               <div className="flex items-center mb-4">
@@ -115,7 +115,7 @@ export default function IncentivesSection() {
                 </li>
                 <li className="flex items-start">
                   <div className="text-green-600 mr-2">•</div>
-                  <span>Want to sponsor this incentive? Go to FAQs</span>
+                  <span>Sign up with your school email to be eligible.</span>
                 </li>
               </ul>
             </div>
@@ -126,7 +126,7 @@ export default function IncentivesSection() {
             <div className="text-[#0092ff] font-semibold mb-2">04</div>
             <h3 className="text-2xl font-bold mb-3">School-Level Incentive</h3>
             <p className="text-gray-600 mb-6">
-              Schools with 100+ student participants who complete all activities receive a special recognition prize to celebrate their commitment.
+              Schools with 100+ students who complete all monthly activities are entered to win some legit school-level prizes. 
             </p>
             <div className="bg-amber-50 p-6 rounded-xl">
               <div className="flex items-center mb-4">
@@ -151,7 +151,7 @@ export default function IncentivesSection() {
                 </li>
                 <li className="flex items-start">
                   <div className="text-amber-600 mr-2">•</div>
-                  <span>School receives recognition and resources</span>
+                  <span>More students participating = more chances to win</span>
                 </li>
               </ul>
             </div>

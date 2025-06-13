@@ -5,25 +5,38 @@ import { FaqSection } from '@/components/ui/faq-section';
 
 const DEMO_FAQS = [
   {
-    question: "What grade levels can participate in the Industry Immersion Series?",
-    answer: "The program is available to all students in grades 7-12 across Canada. We've designed challenges and learning experiences appropriate for different grade levels to ensure everyone can participate meaningfully.",
+    question: "What grade levels can participate?",
+    answer: "The program is available to all students across grades 7-12.",
   },
   {
-    question: "Does my school need to be licensing myBlueprint to participate?",
-    answer: "You can sign up for the Industry Immersion Series by clicking the 'Sign up to stay informed' button at the bottom of the page. You will be added to our mailing list and will be notified when the program launches.",
+    question: "Does my school need to be licensing myBlueprint?",
+    answer: "No. Any grade 7-12 student across North America can participate.",
   },
   {
-    question: "When does the program launch and how can students participate?",
-    answer: "The Industry Immersion Series is launching in October 2025. Students can join our mailing list to stay informed about the application process, participating schools, and how to get involved in their region.",
+    question: "When does the program launch?",
+    answer: "The first monthly activity is launching in October 2025. A landing page will be created for each month that explains the activity and how students can participate. Join the mailing list below to be the first to know.",
   },
   {
-    question: "What types of industry challenges will students work on?",
-    answer: "Students will tackle real-world challenges from partner companies across various industries including technology, healthcare, finance, manufacturing, and sustainability. Each challenge is designed to build industry-relevant skills while exploring potential career paths.",
+    question: "What types of industries are participating?",
+    answer: "We've tried to ensure there's a diverse group of industries available for students to learn about. We'll be announcing specifics soon. To be one of the first to know, join the mailing list below.",
   },
   {
-    question: "How can my company/industry association get involved?",
-    answer: "We're actively partnering with schools across Canada. Educators and administrators can contact us through our educator portal to learn about bringing the program to their students and integrating it with their curriculum.",
+    question: "Are there incentives for educators as well?",
+    answer: "Yes :) Monthly giveaways for educators who join the mailing list, and school prizes for schools with a lot of student participation.",
   },
+  {
+    question: "What data is being collected?",
+    answer: "myBlueprint will collect the names and emails of students when they submit their monthly activities. This information will not be shared with any third parties. Industry partners will receive anonymized data on the number of students who participated in their activity.",
+  },
+  {
+    question: "What is myBlueprint?",
+    answer: "myBlueprint is a trusted partner to almost 300 school boards across Canada, helping to empower every student to thrive and succeed in education, career, and life.",
+  },
+  {
+    question: "How can my company get involved?",
+    answer: "Email our Director, Special Projects at damian.matheson@myblueprint.ca.",
+  },
+  
 ];
 
 export default function Footer() {

@@ -38,8 +38,9 @@ export default function HeroSection() {
               Industry Immersion Series
             </AnimatedGradientText>
           </h1>
-          <p className="text-lg text-gray-600 mb-2 max-w-md">Available to all grade 7-12 students across North America, launching October 2025.</p>
-          <p className="text-lg text-gray-600 mb-8 max-w-md">Join the mailing list to get notified about which industries are going to be involved and how your students can participate.</p>
+          <p className="text-lg text-gray-600 mb-2 max-w-md">$100,000+ in incentives available to grade 7-12 students across North America. </p> 
+          <p className="text-lg text-gray-600 mb-2 max-w-md">Launching this October, 2025.</p>
+          <p className="text-lg text-gray-600 mb-8 max-w-md">Join the mailing list to be the first to know which industries are supporting you and your students with <strong>engaging career awareness and skill development opportunities this school year.</strong></p>
           
           {/* Form Container - Left aligned with text above */}
           <div className="max-w-md">

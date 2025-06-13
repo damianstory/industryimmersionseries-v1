@@ -10,7 +10,7 @@ function Feature() {
               How It <span className="text-[#0092ff]">Works</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Industry Immersion Series facilitates seamless connections between students and industry partners, enhancing skill development and career exploration.
+            Connecting students to careers through self-directed, incentive driven skill building and industry awareness activities.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -19,7 +19,7 @@ function Feature() {
               <div className="flex flex-col">
                 <h3 className="text-xl tracking-tight font-semibold">Monthly Challenges Released</h3>
                 <p className="text-gray-600 max-w-xs text-base">
-                  Each month, a new industry partner releases skill-building challenges designed to introduce students to their field.
+                  Each month, a new industry partner releases a skill-building challenge designed to introduce students to occupations and opportunities in their industry.
                 </p>
               </div>
             </div>
@@ -28,7 +28,7 @@ function Feature() {
               <div className="flex flex-col">
                 <h3 className="text-xl tracking-tight font-semibold">Students Complete Activities</h3>
                 <p className="text-gray-600 max-w-xs text-base">
-                  Students work on the challenge, applying creativity and developing industry-relevant skills.
+                  Students individually work on the challenge, developing awareness of industry opportunities, relevant skills, post-secondary pathways, and more.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@ function Feature() {
               <div className="flex flex-col">
                 <h3 className="text-xl tracking-tight font-semibold">Submission Process</h3>
                 <p className="text-gray-600 max-w-xs text-base">
-                  Completed work is submitted via Google Forms for review by industry professionals.
+                  Completed work is submitted and assessed against a rubric for review by the selection committee. Twenty submissions will selected each month.  
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ function Feature() {
               <div className="flex flex-col">
                 <h3 className="text-xl tracking-tight font-semibold">Winners Selected & Rewarded</h3>
                 <p className="text-gray-600 max-w-xs text-base">
-                  Outstanding submissions receive microgrants and recognition from industry partners each month.
+                  Outstanding submissions receive micro grants and recognition from industry partners each month. $10,000 in micro grants are awarded EACH month 🎉
                 </p>
               </div>
             </div>
