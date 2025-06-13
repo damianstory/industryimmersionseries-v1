@@ -29,7 +29,7 @@ export default function BottomSection() {
             Sign up to stay informed
           </h2>
           <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
-            We'll only email you with the specifics about what you and your students need to know to take advantage of each month's industry sponsored skill building opportunity. 
+            We&apos;ll only email you with the specifics about what you and your students need to know to take advantage of each month&apos;s industry sponsored skill building opportunity. 
           </p>
           
           {/* Form Container - Centered horizontally */}
