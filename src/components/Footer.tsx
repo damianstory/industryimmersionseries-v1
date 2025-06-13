@@ -34,7 +34,7 @@ const DEMO_FAQS = [
   },
   {
     question: "How can my company get involved?",
-    answer: "Email our Director, Special Projects at damian.matheson@myblueprint.ca.",
+    answer: "Email our Director, Special Projects at damian.matheson@myblueprint.ca",
   },
   
 ];

@@ -61,7 +61,7 @@ export default function HeroSection() {
           <FeatureSteps 
             features={features}
             autoPlayInterval={7000}
-            className="p-4 md:p-6 max-w-2xl"
+            className="p-4 md:p-6 max-w-2xl mt-[10px]"
           />
         </div>
       </section>
