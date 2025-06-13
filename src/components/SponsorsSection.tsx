@@ -5,73 +5,73 @@ import { useState } from 'react';
 // Modal data structure for each sponsor
 const modalData: { [key: string]: { title: string; content: string; icon: string } } = {
   "October 2025": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "November 2025": {
-    title: "It&apos;s a secret...for now", 
+    title: "It's a secret...for now", 
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "December 2025": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "January 2026": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "February 2026": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "March 2026": {
-    title: "It&apos;s a secret...for now", 
+    title: "It's a secret...for now", 
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "April 2026": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "May 2026": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "June 2026": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "Sign up": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "to be": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "the first": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "to find out 👇": {
-    title: "It&apos;s a secret...for now",
+    title: "It's a secret...for now",
     content: "But the first people to find out which companies are participating, and what incentives are available, are going to be the people on our mailing list.",
     icon: "🤫"
   },
   "Become a Sponsor": {
     title: "Email Damian",
-    content: "Want more young people to know about opportunities within your company or industry? Want to fund incentives that encourage students to participate?\n\nLet&apos;s talk: damian.matheson@myblueprint.ca",
+    content: "Want more young people to know about opportunities within your company or industry? Want to fund incentives that encourage students to participate?\n\nLet's talk: damian.matheson@myblueprint.ca",
     icon: "🤝"
   }
 };
@@ -196,7 +196,7 @@ export default function SponsorsSection() {
               Sponsors
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Let&apos;s celebrate these industry leaders<br />
+              Let's celebrate these industry leaders<br />
               collaborating with students to help them develop real-world skills 👏
             </p>
           </div>
