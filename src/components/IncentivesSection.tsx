@@ -90,7 +90,7 @@ export default function IncentivesSection() {
             <div className="text-[#0092ff] font-semibold mb-2">03</div>
             <h3 className="text-2xl font-bold mb-3">Educator-Level Incentives</h3>
             <p className="text-gray-600 mb-6">
-              Educators on the Industry Immersion Series mailing list are eligible for prizes designed to support classroom activities, and to be fun!
+              Educators on the Industry Immersion Series mailing list can win prizes designed to support your classroom, and make you smile!
             </p>
             <div className="bg-green-50 p-6 rounded-xl">
               <div className="flex items-center mb-4">
@@ -107,7 +107,7 @@ export default function IncentivesSection() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <div className="text-green-600 mr-2">•</div>
-                  <span>Monthly drawing for registered educators</span>
+                  <span>Monthly prizes for educators on the mailing list</span>
                 </li>
                 <li className="flex items-start">
                   <div className="text-green-600 mr-2">•</div>
@@ -143,11 +143,11 @@ export default function IncentivesSection() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <div className="text-amber-600 mr-2">•</div>
-                  <span>Requires 100+ student participants</span>
+                  <span>Requires 100+ student participants from your school</span>
                 </li>
                 <li className="flex items-start">
                   <div className="text-amber-600 mr-2">•</div>
-                  <span>Students must complete all activities</span>
+                  <span>Those students must each complete all monthly activities</span>
                 </li>
                 <li className="flex items-start">
                   <div className="text-amber-600 mr-2">•</div>
