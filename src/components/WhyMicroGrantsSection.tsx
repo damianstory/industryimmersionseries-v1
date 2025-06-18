@@ -4,18 +4,22 @@ export default function WhyMicroGrantsSection() {
   return (
     <section className="pt-32 pb-32 px-4 md:px-12 bg-white" id="why">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
           {/* Left column - Video Placeholder positioned to align with Submission Process */}
-          <div className="lg:col-start-1 flex justify-start">
+          <div className="lg:col-start-1 flex justify-start lg:mt-3">
             <div className="w-full max-w-[315px] bg-gray-100 rounded-xl overflow-hidden flex items-center justify-center aspect-[9/16]">
-              <div className="text-center p-6 sm:p-8">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#0092ff] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="sm:w-8 sm:h-8">
-                    <path d="M8 5V19L19 12L8 5Z" fill="white"/>
-                  </svg>
-                </div>
-                <p className="text-gray-600 font-medium text-sm sm:text-base">Video Coming Soon</p>
-              </div>
+              <iframe
+                width="315"
+                height="560"
+                src="https://www.youtube.com/embed/qEogEfRqnXM"
+                title="Why Micro Grants? Industry Immersion Series"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="w-full h-full object-cover"
+                style={{ aspectRatio: '9/16' }}
+              ></iframe>
             </div>
           </div>
 
