@@ -1,0 +1,9 @@
+# Query: Make anything you imagine 
+# ContextLines: 1
+
+1 result - 1 file
+
+src/app/page.tsx:
+  11        <div>
+  12:         <h1 className="text-6xl font-bold text-center">Industr</h1>
+  13          <h2 className="text-2xl text-center font-light text-gray-500 pt-4">

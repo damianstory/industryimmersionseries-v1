@@ -1,0 +1,71 @@
+# Query: This
+# ContextLines: 1
+
+17 results - 8 files
+
+package-lock.json:
+  2594          "get-symbol-description": "^1.0.2",
+  2595:         "globalthis": "^1.0.3",
+  2596          "gopd": "^1.0.1",
+
+  2683          "get-intrinsic": "^1.2.4",
+  2684:         "globalthis": "^1.0.3",
+  2685          "has-property-descriptors": "^1.0.2",
+
+  3586      },
+  3587:     "node_modules/globalthis": {
+  3588        "version": "1.0.4",
+
+  5947          "get-intrinsic": "^1.2.4",
+  5948:         "globalthis": "^1.0.3",
+  5949          "which-builtin-type": "^1.1.3"
+
+README.md:
+   2  
+   3: This is a full-stack template project for Software Composers to create  applications with AI.
+   4  
+
+  10  ## Technologies used
+  11: This doesn't really matter, but is useful for the AI to understand more about this project. We are using the following technologies
+  12  - React with Next.js 14 App Router
+
+cursor.rules/.templaterules:
+  8  
+  9: There are some pre-configured APIs in this template that can be used but only if required by the current project. These have already been created:
+  10  - Firebase
+
+cursor.rules/DesignRules.md:
+    3  ## Overview
+    4: This document outlines the visual and interactive design direction for the Industry Immersion Series website based on the provided reference materials. These design recommendations should be implemented alongside the PRD requirements to create a cohesive, engaging user experience.
+    5  
+
+   63  
+   64: ### Why We're Doing This Section
+   65  - Split content layout with strong visual balance
+
+  117  
+  118: This design direction emphasizes a clean, modern aesthetic with strategic use of color, typography, and spacing to create an engaging and intuitive user experience that appeals to both students and educators.
+  119  
+
+cursor.rules/PlanningPRD.md:
+   3  ## Document Overview
+   4: This PRD outlines the requirements for the "Industry Immersion Series" website, a platform designed to connect Canadian students in grades 7-12 with industry-sponsored skill-building activities. This document focuses primarily on Milestone 1 (informational website), with notes on future milestones for context.
+   5  
+
+  75  
+  76: #### 6. Why We're Doing This Section
+  77  - Mission statement and purpose of the initiative
+
+paths/voice-notes.md:
+  23  
+  24: This application is set-up with existing configuration for Deepgram APIs and Firebase. Implement all the functionality in the flow above while using the existing codebase as a starting point, but fully modify the codebase to fit the flow and functionality described above.
+
+src/components/Header.tsx:
+  16          <Link href="#incentives" className="hover:text-primary">Incentives</Link>
+  17:         <Link href="#why" className="hover:text-primary"> This</Link>
+  18          <Link href="#contact" className="hover:text-primary">Contact</Link>
+
+src/lib/contexts/DeepgramContext.tsx:
+  119  // Use the useDeepgram hook to access the deepgram context and use the deepgram in any component.
+  120: // This allows you to connect to the deepgram and disconnect from the deepgram via a socket.
+  121  // Make sure to wrap your application in a DeepgramContextProvider to use the deepgram.
