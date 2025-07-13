@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
 import { FeatureSteps } from "@/components/ui/feature-section";
 
@@ -67,7 +66,16 @@ export default function HeroSection() {
       </section>
       
       {/* Bottom Navigation Bar */}
-      {/* (Removed the black bar and its contents) */}
+      <div className="w-full bg-black py-4 px-6 flex items-center justify-center overflow-hidden mt-1">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-white w-full text-center">
+          <span className="text-2xl">✦</span>
+          <div className="flex flex-col sm:flex-row w-full justify-center items-center">
+            <span className="text-lg font-medium">Real Companies Helping Students</span>
+            <span className="text-lg font-medium sm:ml-2">Build Real Skills</span>
+          </div>
+          <span className="text-2xl">✦</span>
+        </div>
+      </div>
     </>
   );
 } 
